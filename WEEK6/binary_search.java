@@ -9,7 +9,7 @@ class BinarySearch
 		while(first<=last)
 		{
 			if(arr[mid]==search){
-				System.out.println("Element found at indec: " + mid);
+				System.out.println("Element found at index: " + mid);
 				break;
 			}
 			else if(arr[mid]<search)
